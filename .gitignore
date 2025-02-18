@@ -1,0 +1,15 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan output
+plan.out
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
+# Ignore Terraform provider cache
+.terraform/
+
+# Ignore local environment files
+*.tfvars
